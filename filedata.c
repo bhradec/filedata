@@ -151,7 +151,7 @@ int main(int argc, char **argv) {
     printf("File size : %dB\n", file_size);
     printf("Device block size: %dB\n", block_size);
     printf("Inode number: %d\n", inode_number);
-    printf("Filesystem path: %s\n",filesystem_path);
+    printf("Filesystem path: %s\n", filesystem_path);
 
     free(filesystem_path);
 
